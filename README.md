@@ -1,4 +1,4 @@
-cat > README.md << 'EOF'
+
 # AI Eval Toolkit
 
 Lightweight toolkit for structured evaluation of AI/LLM outputs: metrics, rubric-based scoring, and simple reporting.
