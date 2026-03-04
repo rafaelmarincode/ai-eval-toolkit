@@ -1,4 +1,5 @@
-
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 # AI Eval Toolkit
 
 Lightweight toolkit for structured evaluation of AI/LLM outputs: metrics, rubric-based scoring, and simple reporting.
