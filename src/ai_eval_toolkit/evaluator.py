@@ -1,3 +1,12 @@
+def evaluate_response(output: str, filename: str = "result.json") -> dict:
+    """
+    Backwards-compatible helper used by examples.
+    Scores the output and optionally saves to JSON.
+    """
+    evaluation = score_output(output)
+    save_result(output, filename=filename)
+    return evaluation 
+
 import json
 
 
@@ -16,6 +25,16 @@ def score_output(output: str) -> dict:
 
     return score
 
+def save_result(output: str, filename="result.json"):
+    result = {
+        "output": output,
+        "evaluation": score_output(output),
+    }
+
+    with open(filename, "w") as f:
+        json.dump(result, f, indent=2)
+
+    print("Evaluation saved to", filename)
 
 def save_result(output: str, filename="result.json"):
     result = {
