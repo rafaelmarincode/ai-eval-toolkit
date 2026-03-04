@@ -32,3 +32,19 @@ ai-eval-toolkit/
 ```bash
 python3 --version
 # (coming next) python3 -m venv .venv && source .venv/bin/activate
+
+## Example evaluation output
+
+```json
+{
+  "prompt": "Explain what machine learning is",
+  "scores": {
+    "clarity": 4,
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5
+  },
+  "overall_score": 4.5
+}
+```
+
