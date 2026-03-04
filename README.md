@@ -11,6 +11,17 @@ When you iterate on prompts or compare model outputs, you need repeatable evalua
 - **Simple JSON logging** for results
 - **Example evaluation run** you can execute locally
 
+## Project structure
+
+ai-eval-toolkit/
+├── src/
+│   └── ai_eval_toolkit/
+│       └── evaluator.py
+├── examples/
+│   └── example_eval.py
+├── tests/
+└── README.md
+
 ## Roadmap
 - Add configurable rubrics (YAML/JSON)
 - Add batch evaluation for datasets
