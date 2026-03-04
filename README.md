@@ -13,6 +13,7 @@ When you iterate on prompts or compare model outputs, you need repeatable evalua
 
 ## Project structure
 
+```
 ai-eval-toolkit/
 ├── src/
 │   └── ai_eval_toolkit/
@@ -21,6 +22,7 @@ ai-eval-toolkit/
 │   └── example_eval.py
 ├── tests/
 └── README.md
+```
 
 ## Roadmap
 - Add configurable rubrics (YAML/JSON)
